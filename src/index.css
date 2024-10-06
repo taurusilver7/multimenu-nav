@@ -1,0 +1,16 @@
+/* Inter Font Family */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply bg-[#111] text-gray-300 font-inter;
+}
+
+@layer components {
+	.sub-menu {
+		@apply absolute top-[4.2rem] p-4 rounded-md origin-[50%_-170px] backdrop-blur bg-white/5;
+	}
+}
